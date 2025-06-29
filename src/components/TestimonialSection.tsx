@@ -83,8 +83,8 @@ export function TestimonialSection() {
                             </CarouselItem>
                         ))}
                     </CarouselContent>
-                    <CarouselPrevious />
-                    <CarouselNext />
+                    <CarouselPrevious className="max-lg:hidden" />
+                    <CarouselNext className="max-lg:hidden" />
                 </Carousel>
             </div>
         </section>

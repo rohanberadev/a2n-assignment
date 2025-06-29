@@ -115,12 +115,12 @@ export function Footer() {
             </div>
 
             <div className="flex flex-col gap-y-6 h-full justify-center px-8">
-                <h1 className="text-2xl text-orange-500 font-bold">
+                <h1 className="text-2xl text-orange-500 font-semibold">
                     Join This Newsletter
                 </h1>
 
                 <Input
-                    className="bg-white h-10 text-lg"
+                    className="bg-white h-10 text-lg max-md:text-sm"
                     placeholder="Your email here..."
                 />
 

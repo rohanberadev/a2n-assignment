@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 export function HeroSection() {
     return (
-        <div className="bg-[url('/assets/hero-image.jpg')] bg-cover bg-center h-[300px] md:h-[400px] lg:h-[550px] flex items-center relative">
+        <div className="w-full bg-[url('/assets/hero-image.jpg')] bg-cover bg-center h-[300px] md:h-[400px] lg:h-[550px] flex items-center relative">
             {/* <div className="absolute left-0 top-0 h-full w-1/2 bg-gradient-to-r from-[#7f5539]/80 via-[#b08968]/40 to-transparent pointer-events-none z-10"></div> */}
             <motion.div
                 initial={{ y: 100, opacity: 0 }}

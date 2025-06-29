@@ -20,3 +20,4 @@ export const facebookLogoImage = "/assets/facebook.png" as const;
 export const twitterLogoImage = "/assets/twitter.png" as const;
 export const instagramLogoImage = "/assets/instagram.png" as const;
 export const linkedinLogoImage = "/assets/linkedin.png" as const;
+export const hamburgerIconImage = "/assets/hamburger.png" as const;
