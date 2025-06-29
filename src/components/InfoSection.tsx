@@ -5,7 +5,7 @@ import { donationImage, doveImage, teamWorkImage } from "~/constants/images";
 
 export function InfoSection() {
     return (
-        <section className="bg-white py-16 px-6 md:px-20 font-poppins">
+        <section className="py-16 px-6 md:px-20 font-poppins bg-gray-200">
             <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
                 {/* Left Text */}
                 <div>
